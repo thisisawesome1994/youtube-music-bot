@@ -19,7 +19,7 @@ opts1 = Options()
 opts1.add_argument('--user-agent=[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36]')
 opts1.add_argument('--mute-audio')
 opts1.add_argument('--incognito')
-opts1.add_argument('--headless')
+#opts1.add_argument('--headless')
 
 browser1 = webdriver.Chrome(options=opts1, desired_capabilities=capabilities)
 #browser2 = webdriver.ChromeOptions(desired_capabilities=capabilities)
