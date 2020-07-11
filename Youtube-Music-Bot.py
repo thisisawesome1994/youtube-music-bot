@@ -46,6 +46,7 @@ for i in range(views):
 #    ytplay.click()
 #    print("Starting...")
 #    else ytplay.click()
+    time.sleep(12)
     browser1.minimize_window()
     time.sleep(loop_time)
 #aria_valuenow = browser1.find_element_by_css_selector('span').get_attribute("aria-valuenow")
